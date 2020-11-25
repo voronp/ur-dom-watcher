@@ -9,6 +9,7 @@ const observer = new MutationObserver((mutations) => {
                     if (node.matches(watcher.selector)) {
                         watcher.callback.call(node)
                     }
+                    node.querySelectorAll(watcher.selector).forEach(inside => watcher.callback.call(inside))
                 }
             }
         }
@@ -19,6 +20,7 @@ const observer = new MutationObserver((mutations) => {
                     if (node.matches(watcher.selector)) {
                         watcher.callback.call(node)
                     }
+                    node.querySelectorAll(watcher.selector).forEach(inside => watcher.callback.call(inside))
                 }
             }
         }
