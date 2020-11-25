@@ -5,6 +5,10 @@ Initially they are included in [index.js](src/index.js) that extends window with
 
 Here used webpack module bundler but this is unnecessary.
 
+To install 
+```
+yarn install
+```
 To compile in development mode with source maps and watching code updates use 
 ```
 npx webpack --watch
