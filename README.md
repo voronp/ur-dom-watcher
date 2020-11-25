@@ -17,4 +17,4 @@ for production (minified without source maps)
 ```
 npx webpack
 ```
-compiled version resides in [index.js](dist/main.js)
+compiled version resides in [main.js](dist/main.js)
