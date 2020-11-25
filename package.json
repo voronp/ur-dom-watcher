@@ -1,7 +1,7 @@
 {
-  "name": "user-replay-watch",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "ur-dom-watcher",
+  "version": "0.1.0",
+  "main": "src/index.js",
   "author": "Pavel",
   "license": "MIT",
   "devDependencies": {
